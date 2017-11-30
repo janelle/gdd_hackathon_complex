@@ -34,7 +34,7 @@ class Predict(Resource):
     def get(self):
         arguments = parser.parse_args()
         result = {
-            'probability': 0.5,
+            'probability': 0.201720172017,
             'label': 1.,
             'sample_uuid': arguments['sample_uuid'],
         }
